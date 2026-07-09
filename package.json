@@ -2,6 +2,9 @@
   "name": "crm-gym",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "workspaces": [
     "backend",
     "frontend"
@@ -19,5 +22,14 @@
     "prisma:migrate": "npm run prisma:migrate --workspace backend",
     "prisma:migrate:deploy": "npm run prisma:migrate:deploy --workspace backend",
     "prisma:seed": "npm run prisma:seed --workspace backend"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^26.1.1"
   }
 }
