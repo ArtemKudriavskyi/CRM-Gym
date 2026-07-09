@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local/generated files
+.DS_Store
+npm-debug.log*
+
+# Codex/agent-local skills and caches
+.agents/
+skills-lock.json
+
+# Uploaded user files
+backend/uploads/*
+!backend/uploads/.gitkeep
